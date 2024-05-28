@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+.page .sidebar {
+    grid-area: sidebar;
+    height: 100%;
+    background-color: #1a2e44;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar .option-admin {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    gap: 30px;
+    padding-left: 90px;
+}
+
+.option-admin h3 {
+    color: white;
+}
+
+
+
+.option-admin i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.page .view-info {
+    grid-area: view-info;
+    width: 100%;
+    height: 87vh;
+    /* background-color: #2193b0; */
+}
+
+.view-info .info-options {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.info-options h4 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.info-options .actions {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.actions .action {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+}
+
+.action img {
+    width: 50px;
+    height: 50px;
+}
+
+.acOne img {
+    width: 30px;
+    height: 30px;
+}
+
+.table-content {
+    width: 90%;
+    height: 64vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: auto;
+    /* border: 1px solid #eee;s */
+}
+
+
+.table-content::-webkit-scrollbar {
+    width: 7px; /* Ancho del scrollbar */
+}
+
+/* Estilo del thumb del scrollbar */
+.table-content::-webkit-scrollbar-thumb {
+    background-color: #a1a1a1; /* Color del thumb */
+    border-radius: 5px; /* Radio de borde del thumb */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table thead {
+    position: sticky;
+    top: 0;
+}
+
+table tbody tr:hover {
+    background-color: rgba(33, 100, 176, 0.082);
+    cursor: pointer;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para los botones de acción */
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+}
+
+button i {
+    font-size: 1.2rem;/* Cambia el color según tu preferencia */
+}
+
+/* Añade algún espacio entre los botones */
+button + button {
+    margin-left: 10px;
+}
+
+.actions-table form {
+    display: inline-block; /* Hace que los formularios sean elementos en línea */
+    margin-right: 15px;
+}
+
+.btn {
+    color: tomato;
+}
+
+.btn2 {
+    color: blue;
+}
+

@@ -1,0 +1,294 @@
+/* .container {
+    background-color: blueviolet;
+} */
+
+.companyInfo {
+    width: 100%;
+    display: flex;
+}
+
+.compContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    width: 50%;
+    padding-left: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+.modalOverlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(34, 34, 34, 0.6); /* Fondo oscuro con opacidad */
+    z-index: 999;
+}
+
+.info form  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    text-decoration: none;
+}
+
+.info form button {
+    border: none;
+    outline: none;
+    background-color: #2193b0;
+    width: 100%;
+    color: white;
+    height: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.info form button:hover {
+    background-color: rgb(12, 11, 11);
+}
+
+
+.disassociate {
+    width: 36%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dissComp {
+    width: 100%;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+}
+
+.dissComp form {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#formTwo button {
+    background-color: #45a049;
+}
+
+#formTwo button:hover {
+    background-color: #247928;
+}
+
+.disassociate form button {
+    height: 100%;
+    background-color: rgb(196, 23, 23);
+    border: none;
+    outline: none;
+    color: white;
+    padding: 0 13px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.disassociate form button:hover {
+    background-color: rgb(134, 1, 1);
+}
+
+.principal-content {
+    /* background-color: #f4f4f4;  */
+    background-color: rgba(23, 12, 168, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 80%;
+    margin: auto;
+}
+
+.contentTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.appActions span {
+    color: #3498db; /* Color para el enlace "Ver Postulados" */
+    cursor: pointer;
+}
+
+.applications {
+    margin-top: 30px;
+}
+
+.vacantCode {
+    height: 90%;
+}
+
+.applications article {
+    background-color: #fff; /* Color de fondo para cada artículo */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    transition: box-shadow 0.3s ease;
+}
+
+.applications .vacantCode {
+    height: 85%;
+}
+
+.vacantCode a {
+    text-decoration: none;
+}
+
+.applications article div {
+    height: 100%;
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vc .vacantCode {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.appActions article div  {
+    height: 100%;
+    width: 22%;
+
+}
+
+.applications article:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.vacantCode h4 {
+    margin: 0;
+    font-size: 18px;
+    color: black;
+}
+
+.vacantJob span,
+.vacantCreated span {
+    display: block;
+    margin-top: 5px;
+    font-size: 16px;
+    color: #555;
+}
+
+.actions .formActions i {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.modalWindow {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #ffffff;
+    z-index: 1000;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 1000px;
+    max-height: 400px;
+    text-align: center;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+#close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+/* Title Page Styles */
+.title-page {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* General Info Styles */
+.general {
+    margin-bottom: 20px;
+}
+
+.generalTitle {
+    background-color: #2193b0;
+    height: 55px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.generalTitle h3 {
+    font-size: 1.5em;
+}
+
+.generalInfo,
+.otherGeneralInfo,
+.locationInfo,
+status,
+.skills {
+    margin-bottom: 20px;
+}
+
+.locationInfo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.locationInfo article {
+    margin-bottom: 10px;
+}
+
+/* Status Styles */
+.status article {
+    font-weight: bold;
+    color: #006600;
+}
+
+/* Skills Styles */
+.skills h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Responsive Styles (Optional) */
+@media (max-width: 768px) {
+    .modalWindow {
+        width: 90%;
+    }
+}
+
+

@@ -1,0 +1,61 @@
+body {
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form label {
+    margin-bottom: 8px;
+}
+
+.form input, select, textarea {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form button {
+    padding: 10px 15px;
+    background-color: rgb(53, 61, 168);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #1e7fa0;
+}
+
+.dates {
+    /* background-color: #1e7fa0; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.dates .startDate, .finishDate {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.startDate input, .finishDate input {
+    width: 100%;
+}
+
+
+

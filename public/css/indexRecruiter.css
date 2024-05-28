@@ -1,0 +1,269 @@
+body {
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 100%;
+
+}
+
+.container .info {
+    width: 100%;
+    padding-left: 70px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+
+#formTwo button {
+    background-color: #45a049;
+}
+
+#formTwo button:hover {
+    background-color: #247928;
+}
+
+.info form  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    text-decoration: none;
+}
+
+.info form button {
+    border: none;
+    outline: none;
+    background-color: #2193b0;
+    width: 100%;
+    color: white;
+    height: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.info form button:hover {
+    background-color: rgb(12, 11, 11);
+}
+
+
+.disassociate {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 90%;
+    height: 33px;
+    margin-bottom: 30px;
+}
+
+.contdis {
+    width: 85%;
+    height: 100%;
+    display: flex;
+}
+
+.disassociate form {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.disassociate form:first-child {
+    justify-content: flex-start;
+}
+
+.disassociate form:last-child {
+    justify-content: flex-end;
+}
+
+.disassociate form button {
+    width: 80%;
+    height: 100%;
+    background-color: rgb(196, 23, 23);
+    border: none;
+    outline: none;
+    color: white;
+    padding: 0 13px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.disassociate form button:hover {
+    background-color: rgb(134, 1, 1);
+}
+
+main {
+    display: flex;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+
+.options {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_view {
+    width: 60%;
+}
+
+.recruiter_card {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+    justify-content: flex-end;
+    /* align-items: flex-end; */
+    align-items: center;
+}
+
+.card-body .option {
+    width: 90%;
+    height: 40px;
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.option a{
+    width: 21%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.add {
+    border-radius: 5px;
+    background-color: #1a2e44;
+}
+
+.view {
+    border-radius: 5px;
+    background-color: #45a049;
+}
+
+.view:hover {
+    background-color: #247928;
+}
+
+.add:hover {
+    background-color: #38445e;
+}
+
+.option h5 {
+    width: 65%;
+    height: 100%;
+    background-color: rgb(53, 61, 168);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.mod {
+    margin-top: 50px;
+    width: 100%;
+    padding-left: 40px;
+}
+
+.processes {
+    overflow: auto;
+    /* margin-top: 50px; */
+    width: 97%;
+    max-height: 60vh;
+    margin-top: 20px;
+    padding-left: 40px;
+    /* background-color: #1a2e44; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 3px;
+}
+
+.processes::-webkit-scrollbar {
+    width: 7px; /* Ancho del scrollbar */
+}
+
+/* Estilo del thumb del scrollbar */
+.processes::-webkit-scrollbar-thumb {
+    background-color: #a1a1a1; /* Color del thumb */
+    border-radius: 5px; /* Radio de borde del thumb */
+}
+
+
+.process {
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    border: 1px solid #b8b8b8;
+    border-radius: 8px;
+    gap: 3px;
+    background: white;
+}
+
+.modP {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 29%;
+    /* background-color: #247928; */
+    padding: 5px;
+    border: 1px solid #b8b8b8;
+    
+}
+
+.modPTwo {
+    /* background-color: #2193b0; */
+    width: 12%;
+    /* border: 1px solid #b8b8b8; */
+    /* background-color: blue; */
+}
+
+.modPTwo form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.modPTwo form button {
+    /* background-color: blueviolet; */
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    height: 60%;
+    background-color: #45a049;
+    color: white;
+}
+

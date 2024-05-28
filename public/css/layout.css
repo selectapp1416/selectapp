@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.header.scrolled {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+@media screen and (min-width: 290px) and (max-width: 699px){
+    .header .logo {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+        height: auto;
+        padding: 15px;
+        width: 100%;
+        position: sticky;
+        top: 0;
+        gap: 17px;
+        transition: box-shadow 0.3s ease;
+        z-index: 1000; 
+        border-bottom: 1px solid #b9b9b9;
+        background-color: white;
+    }
+
+    .usernameHeader {
+        display: flex;
+    }
+    
+    .usernameHeader .nameus {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .photoIcon {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .find {
+        width: 83.3%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: #2f1c6a; */
+    }
+    
+    .find #form {
+        width: 100%;
+        height: 33px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .find #form button {
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background: none;
+    }
+    
+    .input-search {
+        width: 80%;
+        height: 100%;
+        border-radius: 10px;
+        outline: none;
+        border: 1px solid black;
+        padding-left: 20px;
+    }
+    
+    
+    
+    .actions {
+        display: flex;
+        width: 86.3%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        /* background-color: #2f1c6b; */
+    }
+    
+    
+    .actions h5 {
+        margin-right: 10px;
+    }
+    
+    .actions h5 a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    
+    
+    .actions button {
+        padding: 8px 12px;
+        background-color: rgb(53, 61, 168);
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    .actions button:hover {
+        background-color: rgb(29, 29, 29);
+    }
+
+    .rolename {
+        display: none;
+    }
+
+    
+    .site-footer {
+        /* grid-area: site-footer; */
+        position: static;
+        width: 100%;
+        bottom: 0;
+        height: 300px;
+        margin-top: 50px;
+        background-color: #f4f5ff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .cont h2 {
+        color:#2f1c6a;
+    }
+    
+    .Index {
+        width: 100%;
+        height: 20%;
+        background-color: #1a1a1a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .Index h4 a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .content-footer {
+        width: 80%;
+        height: 90%;
+    }
+    
+    .container-footer {
+        width: 100%;
+        height: 88%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: #2f1c6a; */
+    }
+    
+    .container-footer .cont {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .cont a {
+        color: #2f1c6b;
+    }
+    
+    .copy {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+
+@media screen and (min-width: 699px) {
+
+    .header {
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        position: sticky;
+        top: 0;
+        transition: box-shadow 0.3s ease;
+        z-index: 1000; 
+        border-bottom: 1px solid #b9b9b9;
+    }
+
+    .logo {
+        width: 33.3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+.usernameHeader {
+    display: flex;
+}
+
+.usernameHeader .nameus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photoIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+.find {
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.find #form {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.find #form button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: none;
+}
+
+.input-search {
+    width: 80%;
+    height: 100%;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid black;
+    padding-left: 20px;
+}
+
+
+
+.actions {
+    display: flex;
+    width: 33.3%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.actions h5 {
+    margin-right: 10px;
+}
+
+.actions h5 a {
+    text-decoration: none;
+    color: black;
+}
+
+.ast {
+    color: red;
+}
+
+.actions button {
+    padding: 8px 12px;
+    background-color: rgb(53, 61, 168);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.actions button:hover {
+    background-color: rgb(29, 29, 29);
+}
+
+.site-footer {
+    grid-area: site-footer;
+    position: static;
+    width: 100%;
+    bottom: 0;
+    height: 300px;
+    margin-top: 50px;
+    background-color: #f4f5ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont h2 {
+    color:#2f1c6a;
+}
+
+.Index {
+    width: 100%;
+    height: 20%;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Index h4 a {
+    color: white;
+    text-decoration: none;
+}
+
+.content-footer {
+    width: 80%;
+    height: 80%;
+}
+
+.container-footer {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-footer .cont {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cont a {
+    color: #2f1c6b;
+}
+
+.copy {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+
+
+

@@ -1,0 +1,358 @@
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.modalOverlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(34, 34, 34, 0.6); /* Fondo oscuro con opacidad */
+    z-index: 999;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    height: 150px;
+    /* background-color: #014968; */
+}
+
+.name {
+    /* background: #eee; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.photo {
+    width: 30%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addPhoto {
+    height: 100%;
+    width: 80%;
+    background-color: #014968;
+    /* background-image: url('20698.svg'); */
+    border-radius: 7px;
+}
+
+.photo_image {
+    height: 100%;
+    width: 80%;
+    /* background-color: #014968; */
+    /* background-image: url('20698.svg'); */
+    border-radius: 10px;
+    border: 2px solid #1a2e44;
+}
+
+.photo_image img {
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.addPhoto form {
+    width: 100%;
+    height: 100%;
+}
+
+.addPhoto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: white;
+}
+
+.addPhoto form button{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.addPhoto form button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.nameuser {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: blue; */
+}
+
+.username {
+    width: 100%;
+    height: 30%;
+    /* background-color: #2193b0; */
+}
+
+.basicInfo {
+    width: 100%;
+    /* background-color: #2193b0; */
+    height: 70%;
+    display: flex;
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+    /* align-items: flex-end; */
+    /* text-align: right; */
+    font-size: 15px;
+    gap: 17px;
+    /* background-color: #2193b0; */
+}
+
+.basicInfo span {
+    display: flex;
+    display: block;
+    /* margin-bottom: 10px; */
+}
+
+.occupationalProfile {
+    border-top: 2px solid #2193b0;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    /* background-color: #014968; */
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+.occupationalProfile article {
+    margin-top: 20px;
+}
+
+.profileInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profileInfo .pf {
+    width: 80%;
+}
+
+.pf p {
+    line-height: 1.5;
+}
+
+
+.profileInfo h3 {
+    color: #1a2e44;
+    margin-bottom: 10px;
+}
+
+.addProfile button {
+    background-color: #2193b0;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.addProfile button:hover {
+    background-color: #1a2e44;
+}
+
+.sectionTitle h4 {
+    color: #2193b0;
+    margin-bottom: 10px;
+}
+
+.educationsCandidate li {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+
+.edu {
+    color: #808080;
+    font-size: 12px;
+}
+
+.experiencesCandidate table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    /* background-color: #014968; */
+    word-wrap: break-word;
+}
+
+
+.experiencesCandidate th, .experiencesCandidate td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.actionsTable form {
+    /* background-color: #014968; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionsTable button {
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #27812a;
+    color: white;
+    cursor: pointer;
+}
+
+.actionsTable button:hover {
+    background-color: #1b681d;
+}
+
+.skillsCandidate {
+    display: flex;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.skillsContainer {
+    flex: 1;
+}
+
+.skillsAction {
+    text-align: right;
+}
+
+.skillsContainer p {
+    margin: 0;
+}
+
+.candidateSkills button {
+    background-color: #2193b0;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.candidateSkills button:hover {
+    background-color: #1a2e44;
+}
+
+.modalWindow {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #ffffff;
+    z-index: 1000;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+    max-height: 400px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.modalWindow .close {
+    width: 100%;
+}
+
+.close {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+
+.close i {
+    cursor: pointer;
+}
+
+.modalWindow form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modalWindow label {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.modalWindow textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    resize: none;
+    border: 1px solid #a7a7a7;
+    border-radius: 10px;
+}
+
+.modalWindow button {
+    background-color: #2193b0;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+}
+
+.modalWindow button:hover {
+    background-color: #014968;
+}
+
+.files {
+    margin-top: 20px;
+}
+
+.filecont {
+    display: flex;
+}
+
+.filecont .filename {
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.fileicon {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
